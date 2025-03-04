@@ -1,6 +1,6 @@
 import { FC } from "react";
-import Header from "./_component/Header";
-import Board from "./_component/Board";
+import Header from "./_components/Header";
+import Board from "./_components/Board";
 
 const WeatherApp: FC = () => (
   <div>
