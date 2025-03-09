@@ -1,6 +1,6 @@
+import clsx from "clsx";
 import { FC } from "react";
 import { CircleUserRound } from "lucide-react";
-import clsx from "clsx";
 
 interface Props {
   text: string;
