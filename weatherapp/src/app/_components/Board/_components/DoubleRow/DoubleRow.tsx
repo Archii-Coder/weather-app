@@ -15,7 +15,7 @@ const DoubleRow: FC<Props> = ({
   secondClassName,
 }) => {
   return (
-    <div className="items-center justify-items-center">
+    <div className="flex flex-col items-center ">
       <div className={clsx(firstClassName)}>{firstRow}</div>
       <div className={clsx(secondClassName)}>{secondRow}</div>
     </div>

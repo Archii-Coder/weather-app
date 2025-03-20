@@ -31,7 +31,7 @@ interface Props {
 
 const WeekdayForecast: FC<Props> = ({ week, weatherIcon, degree, weather }) => {
   return (
-    <div className="">
+    <div className="flex flex-col justify-between items-center space-y-1">
       <div>{WEEK[week]}</div>
       <DynamicIcon name={weatherIcon.icon} aria-label={weatherIcon.label} />
       <div>{degree}°</div>
